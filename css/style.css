@@ -1,0 +1,140 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@700');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v6.1.2/css/all.css');
+
+/* Components */
+@import url('components/navbar.css');
+@import url('components/button.css');
+@import url('components/card.css');
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: Open Sans;
+}
+
+h1, h2, h3, h4 {
+  font-family: Poppins;
+  margin: 0 0 16px 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* HERO */
+.hero {
+  background-image:
+    linear-gradient(135deg, rgba(10, 10, 173, 0.85), rgba(98, 20, 143, 0.85)),
+    url('../images/background.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 140px 20px;
+  text-align: center;
+}
+
+.hero-content {
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+.hero h1 {
+  font-size: 46px;
+  line-height: 1.2;
+}
+
+.hero p {
+  font-size: 20px;
+  margin-bottom: 32px;
+  opacity: 0.95;
+}
+
+/* HOW IT WORKS */
+.how {
+  padding: 80px 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 48px;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+/* SERVICES */
+.services {
+  background: #faf8f5;
+  padding: 80px 20px;
+}
+
+.services-inner {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* CTA */
+.cta {
+  background: #0a0aad;
+  color: white;
+  text-align: center;
+  padding: 70px 20px;
+}
+
+.cta h2 {
+  font-size: 30px;
+}
+
+.cta p {
+  font-size: 18px;
+  margin-bottom: 28px;
+  opacity: 0.9;
+}
+
+/* FOOTER */
+.footer {
+  background: #2c3e50;
+  color: white;
+  padding: 15px 5px;
+}
+
+.footer-content {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.footer-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  padding: 0;
+  margin: 0;
+  font-size: 20px;
+}
+
+.footer-links a {
+  color: white;
+}
+
+.footer-links a:hover {
+  color: #cccccc;
+}

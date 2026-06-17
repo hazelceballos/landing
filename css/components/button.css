@@ -1,0 +1,41 @@
+.btn {
+  display: inline-block;
+  padding: 12px 28px;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  border: none;
+}
+
+.btn-primary {
+  background: #0a0aad;
+  color: white;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background: #08088a;
+  outline: none;
+}
+
+.btn-light {
+  background: white;
+  color: #0a0aad;
+}
+
+.btn-light:hover,
+.btn-light:focus {
+  background: #f0f0f5;
+  outline: none;
+}
+
+.btn-large {
+  padding: 16px 40px;
+  font-size: 18px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .btn {
+    transition: background 0.2s ease-in-out;
+  }
+}

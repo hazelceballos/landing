@@ -1,0 +1,23 @@
+.card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+  padding: 32px;
+  width: 280px;
+  text-align: center;
+}
+
+.card-icon {
+  font-size: 40px;
+  color: #0a0aad;
+  margin-bottom: 16px;
+}
+
+.card h3 {
+  font-size: 20px;
+}
+
+.card p {
+  color: #7f8c8d;
+  margin: 0;
+}
