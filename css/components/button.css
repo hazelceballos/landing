@@ -8,24 +8,24 @@
 }
 
 .btn-primary {
-  background: #0a0aad;
+  background: #aa0000;
   color: white;
 }
 
 .btn-primary:hover,
 .btn-primary:focus {
-  background: #08088a;
+  background: #770000;
   outline: none;
 }
 
 .btn-light {
-  background: white;
-  color: #0a0aad;
+  background: #f3ff6b;
+  color: #000031;
 }
 
 .btn-light:hover,
 .btn-light:focus {
-  background: #f0f0f5;
+  background: #bcc552;
   outline: none;
 }
 
